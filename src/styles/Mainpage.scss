@@ -1,0 +1,17 @@
+@import "../Constants/Constants.scss";
+
+.mainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $bodyFont;
+    color: $redColor;
+  }
+
+  button {
+    @include buttonStyle($whiteColor, 35px);
+  }
+}
+
